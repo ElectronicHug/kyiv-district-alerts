@@ -1,0 +1,32 @@
+# Copy to config.yaml. These zones are fictional: replace them with your own aliases.
+telegram:
+  channels: ["@va_kyiv"]  # Add public monitoring channels that you trust.
+  auto_join_channels: false  # Join sources yourself, or explicitly enable this.
+  alert_status_channel: "@va_kyiv"
+  output_peer_id: 0  # Replace with the ID printed by --list-groups.
+  output_name: "YOUR_GROUP_NAME"  # Must match the group name exactly.
+  initial_history_limit: 100
+
+relevance:
+  direct:
+    Обрана зона: ["обрана зона", "обрану зону", "обраній зоні", "обраної зони", "демо'зона"]
+    Друга зона: ["друга зона", "другу зону"]
+  nearby:
+    Сусідня зона: ["сусідня зона", "сусідню зону", "сусідній зоні", "сусідньою зоною"]
+  broad:
+    Київ: ["київ", "києва", "києвом", "києву", "києві"]
+    Правий берег: ["правий берег", "правому березі", "на правий"]
+  clear_phrases: ["чисто", "відбій"]
+  status_phrases: ["до відбою", "дорозвідка", "мінус по"]
+  reply_context_hours: 6
+  distant_places: ["віддалена зона", "лівий берег", "лівому березі"]
+  max_broad_text_length: 500
+
+delivery:
+  mode: filtered
+  digest_interval_minutes: 30
+  digest_max_items: 20
+  duplicate_window_seconds: 90
+
+alerts_api:
+  poll_seconds: 60

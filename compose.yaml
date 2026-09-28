@@ -1,0 +1,13 @@
+services:
+  relay:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./config.yaml:/app/config.yaml:ro
+      - ./.local:/app/.local
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
