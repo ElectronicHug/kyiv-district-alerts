@@ -25,8 +25,10 @@ Prepared on 2026-09-28. This repository is a sanitized source copy; production c
 - [x] Confirm the final repository name and GitHub account.
 - [x] Use a GitHub noreply address for public commits, rather than a personal email.
 - [x] Repeat the final staged-file review immediately before the first commit.
-- [ ] Restore GitHub authorization, create the public repository and push.
-- [ ] Confirm README image rendering, links and the first GitHub Actions run on GitHub.
+- [x] Restore GitHub authorization, create the public repository and push.
+- [x] Confirm README image rendering, links and the first GitHub Actions run on GitHub.
+
+Published as [ElectronicHug/kyiv-district-alerts](https://github.com/ElectronicHug/kyiv-district-alerts). The initial [GitHub Actions test run](https://github.com/ElectronicHug/kyiv-district-alerts/actions/runs/36403789372) passed. GitHub-rendered README HTML includes the demonstration image and links to message examples and GCP deployment.
 
 ## Validation boundaries
 
